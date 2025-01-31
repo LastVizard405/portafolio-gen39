@@ -48,7 +48,7 @@
           </div>
             <ul class="home__social flex--container">
               <li class="home__social-item">
-                <a class="home__social-link" href="#" target="_blank"><i class="bx bxl-linkedin"></i></a>
+                <a class="home__social-link" href="https://www.linkedin.com/in/iv%C3%A1n-dar%C3%ADo-arteaga-mu%C3%B1oz-8030aa336/" target="_blank"><i class="bx bxl-linkedin"></i></a>
               </li>
               <li class="home__social-item">
                 <a class="home__social-link" href="https://wa.me/573216290672" target="_blank"><i class="bx bxl-whatsapp"></i></a>
@@ -72,7 +72,7 @@
             </div>
     
             <div class="home__buttons">
-              <a class="btn btn--primary" href="https://drive.google.com/file/d/1PnLF2OL4Cc804HCIgzWuPOZQb736LU9a/view?usp=drive_link" title="Descargar mi CV" download="my_cv" rel="noreferrer nofollow" target="_blank">
+              <a class="btn btn--primary" href="assets/img/CV Ivan Dario Arteaga.pdf" title="Descargar mi CV" download="ivan_dario_cv" rel="noreferrer nofollow" target="_blank">
                 Descargar CV
               </a>
             </div>
@@ -96,7 +96,7 @@
               <a class="navbar__link" href="#skills">Habilidades</a>
             </li>
             <li class="navbar__item">
-              <a class="navbar__link" href="#projects">Portafolio</a>
+              <a class="navbar__link" href="#projects">Proyectos</a>
             </li>
             <li class="navbar__item">
               <a class="navbar__link" href="#contact">Contacto</a>
@@ -104,6 +104,7 @@
           </ul>
       </div>
       <div class="navbar__toggles flex--container">
+        <!-- darkmode -->
           <div class="navbar__toggle--darkmode flex--container">
             <input type="checkbox" name="color-scheme" id="darkmode-toggle" class="navbar__toggle--darkmode-input" />
             <label for="darkmode-toggle" class="navbar__toggle--darkmode-label">
@@ -111,6 +112,7 @@
               <i class="bx bx-moon navbar__toggle--darkmode-moon"></i>
             </label>
           </div>
+          <!-- language -->
           <div class="navbar__toggle--language flex--container">
             <input type="checkbox" id="language-toggle" class="navbar__toggle--language-input" />
             <label for="language-toggle" class="navbar__toggle--language-label"></label>
@@ -236,21 +238,24 @@
                   <div class="projects__project">
                     <div class="projects__inner grid--container">
                       <div class="projects__image">
-                        <img src="assets/img/project1.jpg" alt="project 1" title="Ecommerce Vanilla" />
+                        <img src="assets/img/proyecto1.png" alt="proyecto 1" title="Pokédex" />
                       </div>
                       <div class="projects__info">
-                        <h3 class="projects__name">Proyecto 1</h3>
+                        <h3 class="projects__name">Pokédex</h3>
                         <p class="projects__description">
-                          Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                          Proyecto donde se consume una API pública de pokemon, donde se muestra todos los datos de cada pokemon incluyendo sus tipos y estadisticas, si se accede en la carta de un pokemon se observa una información mas detallada como altura, peso, habilidades pasivas, sus estadisticas respecto a las maximas existentes y algunos de sus posibles movimientos en combate.
+                          Realizado con React y estilado en CSS.
                         </p>
           
                         <div class="projects__buttons">
+                          <a href="https://pokedex-p5.netlify.app/#/" target="_blank" rel="noreferrer nofollow">
                           <button class="btn projects__button" type="button">
                             VER DEMO
-                          </button>
+                          </button></a>
+                          <a href="https://github.com/LastVizard405/pokedex-app" target="_blank" rel="noreferrer nofollow">
                           <button class="btn projects__button" type="button">
                             VER CÓDIGO
-                          </button>
+                          </button></a>
                         </div>
                       </div>
                     </div>
@@ -259,22 +264,24 @@
                   <div class="projects__project">
                     <div class="projects__inner grid--container">
                       <div class="projects__image">
-                        <img src="assets/img/project2.png" alt="project 1" title="Consumiendo API Pokemon con React" />
+                        <img src="assets/img/proyecto2.PNG" alt="proyecto 2" title="Rick and Morty" />
                       </div>
           
                       <div class="projects__info">
-                        <h3 class="projects__name">Proyecto 2</h3>
+                        <h3 class="projects__name">Rick and Morty</h3>
                         <p class="projects__description">
-                          Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                          Proyecto donde se consume la API pública de Rick and Morty, donde se muestran los datos de las diferentes dimensiones incluyendo la población, la especie, el origen y el estado vital del personaje.
                         </p>
           
                         <div class="projects__buttons">
-                          <button class="btn projects__button" type="button">
-                            VER DEMO
-                          </button>
-                          <button class="btn projects__button" type="button">
-                            VER CÓDIGO
-                          </button>
+                          <a href="https://rick-and-morty-p3.netlify.app/" target="_blank" rel="noreferrer nofollow">
+                            <button class="btn projects__button" type="button">
+                              VER DEMO
+                            </button></a>
+                            <a href="https://github.com/LastVizard405/Rick-and-Morty-p3" target="_blank" rel="noreferrer nofollow">
+                            <button class="btn projects__button" type="button">
+                              VER CÓDIGO
+                            </button></a>
                         </div>
                       </div>
                     </div>
@@ -283,22 +290,24 @@
                   <div class="projects__project">
                     <div class="projects__inner grid--container">
                       <div class="projects__image">
-                        <img src="assets/img/project3.jpg" alt="project 1" title="CRUD con React" />
+                        <img src="assets/img/proyecto3.PNG" alt="proyecto 3" title="Aplicación del clima" />
                       </div>
           
                       <div class="projects__info">
-                        <h3 class="projects__name">Proyecto 3</h3>
+                        <h3 class="projects__name">Aplicación estado del clima</h3>
                         <p class="projects__description">
-                          Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                          Aplicación donde se consume una API que nos trae informacion del clima en gran cantidad de regiones a nivel global.
                         </p>
           
                         <div class="projects__buttons">
-                          <button class="btn projects__button" type="button">
-                            VER DEMO
-                          </button>
-                          <button class="btn projects__button" type="button">
-                            VER CÓDIGO
-                          </button>
+                          <a href="https://weathertopia-p2.netlify.app/" target="_blank" rel="noreferrer nofollow">
+                            <button class="btn projects__button" type="button">
+                              VER DEMO
+                            </button></a>
+                            <a href="https://github.com/LastVizard405/weathertopia-p2" target="_blank" rel="noreferrer nofollow">
+                            <button class="btn projects__button" type="button">
+                              VER CÓDIGO
+                            </button></a>
                         </div>
                       </div>
                     </div>
@@ -307,22 +316,24 @@
                   <div class="projects__project">
                     <div class="projects__inner grid--container">
                       <div class="projects__image">
-                        <img src="assets/img/project4.png" alt="project 1" title="Aplicación del tiempo con React" />
+                        <img src="assets/img/proyecto4.PNG" alt="proyecto 4" title="Galleta de la fortuna" />
                       </div>
           
                       <div class="projects__info">
-                        <h3 class="projects__name">Proyecto 4</h3>
+                        <h3 class="projects__name">Galleta de la fortuna</h3>
                         <p class="projects__description">
-                          Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                          Proyecto donde se trabajo la componetizacion de react usando fondos y frases pre-establecidas.
                         </p>
           
                         <div class="projects__buttons">
-                          <button class="btn projects__button" type="button">
-                            VER DEMO
-                          </button>
-                          <button class="btn projects__button" type="button">
-                            VER CÓDIGO
-                          </button>
+                          <a href="https://fortune-cookie-p1.netlify.app/" target="_blank" rel="noreferrer nofollow">
+                            <button class="btn projects__button" type="button">
+                              VER DEMO
+                            </button></a>
+                            <a href="https://github.com/LastVizard405/fortune-cookie-p1" target="_blank" rel="noreferrer nofollow">
+                            <button class="btn projects__button" type="button">
+                              VER CÓDIGO
+                            </button></a>
                         </div>
                       </div>
                     </div>
@@ -350,11 +361,11 @@
                       </div>
           
                       <div class="contact__info-item">
-                        <i class="bx bx-phone"></i>
+                        <i class="bx bxl-linkedin"></i>
           
-                        <span class="contact__info-number">
-                          <a href="tel:57 321 629 0672" target="_blank" rel="noreferrer nofollow">
-                            +57 321 629 0672
+                        <span class="contact__info-linkedin">
+                          <a href="https://www.linkedin.com/in/iv%C3%A1n-dar%C3%ADo-arteaga-mu%C3%B1oz-8030aa336/" target="_blank" rel="noreferrer nofollow">
+                            Contacto linkedin
                           </a>
                         </span>
                       </div>
@@ -426,9 +437,7 @@
         <h3 class="footer__title">Redes Sociales</h3>
 
         <ul class="footer__social-list">
-          <li class="footer__social-item">
-            <a class="footer__social-link" href="https://www.facebook.com/Idarteaga/" target="_blank" rel="noreferrer nofollow"><i class="bx bxl-facebook"></i></a>
-          </li>
+
 
           <li class="footer__social-item">
             <a class="footer__social-link" href="https://wa.me/573216290672" target="_blank" rel="noreferrer nofollow"><i class="bx bxl-whatsapp"></i></a>
@@ -438,7 +447,7 @@
           </li>
 
           <li class="footer__social-item">
-            <a class="footer__social-link" href="#" target="_blank" rel="noreferrer nofollow"><i
+            <a class="footer__social-link" href="https://www.linkedin.com/in/iv%C3%A1n-dar%C3%ADo-arteaga-mu%C3%B1oz-8030aa336/" target="_blank" rel="noreferrer nofollow"><i
                 class="bx bxl-linkedin"></i></a>
           </li>
         </ul>
